@@ -1,47 +1,38 @@
-
-function getInputValue (input){
+//function 
+function getInputValue (inputId){
     
     // TODO: btn item show in html 
-    const depositInput = document.getElementById('deposit-input');
-    const depositAmountText = depositInput.value;
-    const depostAmount = parseFloat(depositAmountText);
+    const inputItem = document.getElementById(inputId);
+    const inputAmountText = inputItem.value;
+    const amountValue = parseFloat(inputAmountText);
     // TODO: reset input filed here
-    depositInput.value = '';
-    return depostAmount;
+    inputItem.value = '';
+    return amountValue;
 
 }
 
 //TODO:  handle Deposit  button
 document.getElementById('deposit-btn').addEventListener('click', function(){
-    console.log('deposit-btn');
-    const depostAmount =  getInputValue();
+    const amountValue =  getInputValue('deposit-input');
 
     // TODO: get current deposit amount 
     const depositTotal = document.getElementById('deposit-total');
     const depositTotalText = depositTotal.innerText;
     const preDepositTotal = parseFloat(depositTotalText);
-    depositTotal.innerText =  preDepositTotal +  depostAmount ;
+    depositTotal.innerText =  preDepositTotal +  amountValue ;
     // console.log(depositTotalText);
-    // TODO: upate balance 
+    // TODO: update balance 
     const balanceTotal = document.getElementById('balance-total');
     const balanceTotalText = balanceTotal.innerText;
     const preBalanceTotal = parseFloat(balanceTotalText);
-    balanceTotal.innerText = preBalanceTotal +  depostAmount;
-    // TODO: reset input filed here
-    depositInput.value = '';
+    balanceTotal.innerText = preBalanceTotal +  amountValue;
 })
 
 
 
 //TODO:  handle withdraw  button
 document.getElementById('withdraw-btn').addEventListener('click', function(){
-    console.log('withdraw-btn');
-    const withdrawInput = document.getElementById('withdraw-input');
-    console.log('withdrawInput');
-    const withdrawAmountText = withdrawInput.value;
-    const withdrawAmount = parseFloat(withdrawAmountText);
-    console.log(withdrawAmount);
-
+    const withdrawAmount =  getInputValue('withdraw-input');
 
     // TODO: get current withdraw amount 
     const withdrawTotal = document.getElementById('withdraw-total');
@@ -50,7 +41,7 @@ document.getElementById('withdraw-btn').addEventListener('click', function(){
     withdrawTotal.innerText =  preWithdrawTotal + withdrawAmount ;
 
 
-    // TODO: upate balance 
+    // TODO: update balance 
     const balanceTotal = document.getElementById('balance-total');
     const balanceTotalText = balanceTotal.innerText;
     const preBalanceTotal = parseFloat(balanceTotalText);
