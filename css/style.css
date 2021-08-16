@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Mono:wght@400;700&family=Tourney:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+
+
+:root{
+    --mainFont :'Roboto Mono', monospace;
+    --logoFont :'Tourney', cursive;
+    --otherFont:'Festive', cursive;
+    --bodyFont :'Montserrat', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    flex: 0 0 auto;
+} 
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: var(--bodyFont);
+    font-size: 1.06rem;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#heading{
+    text-align: center;
+    background-color: coral;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+#btn-1{
+    background: rgb(238, 67, 0);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+#btn-2{
+    background: rgb(0, 0, 0);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+#btn-3{
+    background: rgb(32, 56, 161);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+#btn-4{
+    background: rgb(247, 20, 255);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-5{
+    background: rgb(6, 255, 234);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-6{
+    background: rgb(28, 2, 29);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-7{
+    background: rgb(205, 255, 149);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-8{
+    background: rgb(247, 20, 255);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-9{
+    background: rgb(10, 103, 119);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-btn1,#btn-btn0{
+    background: rgb(10, 103, 119);
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-btn1{
+    background: rgb(10, 103, 119);
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#btn-btn2{
+    background: rgb(255, 146, 5);
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform:capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#main-area{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: darkslateblue;
+    color: #fff;
+    text-align: center;
+
+}
+
+#input-filed{
+    padding: 1.2rem;
+}

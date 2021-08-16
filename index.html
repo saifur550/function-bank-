@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/web-development.png" type="image/x-icon">
+    <!-- Using Tailwind via CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bank website  JavaScript</title>
+</head>
+<body>
+   <div class="container">
+     <header id="header-section ">
+      <h3 class="text-center text-5xl mt-16 "> Welcome to <span class="font-semibold text-purple-600"> BBC Bank .</span></h3>
+     </header>
+     <main id="main">
+        <section class="bg-green-100 p-8  w-3/4 mx-auto">
+          <h3 id="title" class = "mt-5 font-semibold  p-3 text-3xl bg-gradient-to-r from-red-500">please Login</h3>
+          <div id ="mainForm">
+            <input id="user-email" class=" border border-yellow-900 rounded px-2 block w-3/4 mb-5 mt-5" type="text" placeholder=" Enter Your Email Address">
+            <input id="user-password" class="border border-yellow-900 rounded px-2 block w-3/4 mb-5 mt-5" type="password" placeholder=" Enter Your Password">
+            <button id='login-submit' class=" cursor-pointer px-2 bg-yellow-600 p-3 rounded text-white font-semibold capitalize" id="submit">submit</button>
+          </div>
+        </section>
+     </main>
+     <!-- https://dev.to/michaelburrows/styling-a-login-form-with-tailwind-css-5h1h -->
+   </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
